@@ -1,0 +1,60 @@
+/* Reset básico para eliminar márgenes y paddings por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales para el body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Encabezados */
+h2, h3, h4 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Enlaces */
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Listas */
+ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+/* Estilo para el elemento <ins> */
+ins {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Estilos para párrafos */
+p {
+  margin-bottom: 15px;
+}
+
+/* Estilos para el widget de Calendly */
+.calendly-inline-widget {
+  margin-top: 20px;
+}
+
+/* Separadores o saltos de línea */
+br {
+  margin-bottom: 15px;
+}
+
+/* Puedes agregar más estilos personalizados según lo que necesites */
