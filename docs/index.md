@@ -1,6 +1,12 @@
-# 🔨 PÁGINA WEB EN CONSTRUCCIÓN 🔨
+# PERRO SOBAO
+### Educación canina respetuosa
 
+<br/>
+
+### [instagram.com/perrosobao](https://instagram.com/perrosobao)
 ### 📞 601383650
+
+<br/>
 
 ## Reservas de sesiones
 
@@ -29,3 +35,7 @@ La señal se realiza mediante Bizum al 601383650
 <div class="calendly-inline-widget" data-url="https://calendly.com/perrosobao/presencial?hide_event_type_details=1" style="min-width:320px;height:700px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Final del widget integrado de Calendly -->
+
+<br/>
+
+## 🔨 PÁGINA WEB EN CONSTRUCCIÓN 🔨
