@@ -1,1 +1,5 @@
-Perro Sobao | Educación canina respetuosa
+# Perro Sobao | Educación canina respetuosa
+
+Formación:
+- Enclavedecan
+- \[en construcción\]
