@@ -1,4 +1,3 @@
-# PERRO SOBAO
 ### Educación canina respetuosa
 
 <br/>
