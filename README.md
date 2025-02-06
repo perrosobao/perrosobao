@@ -1,1 +1,1 @@
-Página web de Perro Sobao | Educación canina respetuosa
+Perro Sobao | Educación canina respetuosa
