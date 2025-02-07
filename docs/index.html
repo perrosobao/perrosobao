@@ -3,64 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Perro Sobao - Educación Canina</title>
+  <title>Perro Sobao - Educación Canina Respetuosa</title>
   <!-- Enlazamos el CSS externo -->
   <link rel="stylesheet" href="styles.css">
-
 </head>
-
 <body>
+  <!-- Header con logo, título y datos de contacto -->
+  <header class="site-header">
+    <div class="header-left">
+      <!-- Imagen circular provisional para el logo -->
+      <img src="images/logo-placeholder.png" alt="Logo Perro Sobao" class="logo">
+      <div class="header-title">
+        <h1>Perro Sobao</h1>
+      </div>
+    </div>
+    <div class="header-right">
+      <p class="contact-item">
+        <span class="contact-icon">📸</span>
+        <a href="https://instagram.com/perrosobao" target="_blank">instagram.com/perrosobao</a>
+      </p>
+      <p class="contact-item">
+        <span class="contact-icon">✉️</span>
+        <a href="mailto:info@perrosobao.com">info@perrosobao.com</a>
+      </p>
+      <p class="contact-item">
+        <span class="contact-icon">📞</span>
+        <a href="https://wa.me/34601383650" target="_blank">601383650</a>
+      </p>
+    </div>
+  </header>
 
-<header>
-  <h1>Perro Sobao</h1>
-  <h3>Educación canina respetuosa</h3>
-</header>
+  <!-- Contenido principal -->
+  <main>
+    <!-- Sección de introducción central -->
+    <section class="intro">
+      <h1>Perro Sobao</h1>
+      <h2>Educación canina respetuosa</h2>
+    </section>
 
-<main>
+    <!-- Sección de información de reserva -->
+    <section class="reservation">
+      <h2>Reservas de sesiones</h2>
+      <div class="session-info">
+        <div class="session-details">
+          <p><strong>Duración:</strong> 🕓 1 h</p>
+          <p><strong>Modalidad:</strong> 📍 Sesión presencial en tu domicilio</p>
+        </div>
+        <div class="session-description">
+          <p>La sesión presencial incluye:</p>
+          <ul>
+            <li>Análisis en directo de las necesidades de tu perro</li>
+            <li>Ensayo de ejercicios, cuando proceda</li>
+            <li>Pautas y ejercicios para realizar hasta la siguiente sesión</li>
+            <li>Un informe de la sesión para tener todos los detalles a mano y accesibles</li>
+            <li>Seguimiento online durante la primera semana tras recibir las pautas</li>
+          </ul>
+          <p><ins>Precio: <strong>35€</strong></ins></p>
+          <p>
+            <ins>
+              Se deberá abonar con antelación una señal de <strong>5€</strong> en concepto de combustible
+            </ins>, que se descontará del precio final de la sesión.
+          </p>
+          <p>La señal se realiza mediante Bizum al 601383650</p>
+          <p><em>*No se reembolsará la señal en cancelaciones o modificaciones a menos de 48h de la sesión</em></p>
+        </div>
+      </div>
+      <!-- Widget de pago con Bizum -->
+      <div class="payment-widget">
+        <!-- Botón de Bizum: intenta abrir la app de Bizum para pagar 5€ al 601383650 -->
+        <a href="bizum://pay?phone=601383650&amount=5" class="bizum-btn">
+          Pagar la señal con Bizum
+        </a>
+      </div>
 
-  <h3><a href="https://instagram.com/perrosobao">instagram.com/perrosobao</a></h3>
-  <h3>📞 601383650</h3>
+      <!-- Sección Calendly para reserva rápida -->
+      <div class="calendly-inline-widget" data-url="https://calendly.com/perrosobao/presencial?hide_event_type_details=1" style="min-width:320px;height:700px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    </section>
+  </main>
 
-  <br/>
-
-  <h2>Reservas de sesiones</h2>
-
-  <h4>🕓 1 h</h4>
-  <h4>📍 Sesión presencial en tu domicilio</h4>
-
-  <br/>
-
-  <p>La sesión presencial incluye:</p>
-  <ul>
-    <li>Análisis en directo de las necesidades de tu perro</li>
-    <li>Ensayo de ejercicios, cuando proceda</li>
-    <li>Pautas y ejercicios para realizar hasta la siguiente sesión</li>
-    <li>Un informe de la sesión para tener todos los detalles a mano y accesibles</li>
-    <li>Seguimiento online durante la primera semana tras recibir las pautas</li>
-  </ul>
-
-  <p><ins>Precio: <strong>35€</strong></ins></p>
-
-  <p>
-    <ins>
-      Se deberá abonar con antelación una señal de <strong>5€</strong> en concepto de combustible
-    </ins>, que se descontará del precio final de la sesión.
-  </p>
-
-  <p>La señal se realiza mediante Bizum al 601383650</p>
-
-  <p><em>*No se reembolsará la señal en cancelaciones o modificaciones a menos de 48h de la sesión</em></p>
-  
-</main>
-
-  <!-- Principio del widget integrado de Calendly -->
-  <div class="calendly-inline-widget" data-url="https://calendly.com/perrosobao/presencial?hide_event_type_details=1" style="min-width:320px;height:700px;"></div>
-  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <!-- Final del widget integrado de Calendly -->
-
-  <br/>
-
-  <h2>🔨 PÁGINA WEB EN CONSTRUCCIÓN 🔨</h2>
-
+  <!-- Footer -->
+  <footer>
+    <h2>🔨 PÁGINA WEB EN CONSTRUCCIÓN 🔨</h2>
+  </footer>
 </body>
 </html>
