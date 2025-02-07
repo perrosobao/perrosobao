@@ -45,28 +45,6 @@ body {
   align-items: flex-end;
 }
 
-.contact-item {
-  display: flex;
-  align-items: center;
-  margin: 3px 0;
-  font-size: 0.9rem;
-}
-
-.contact-icon {
-  margin-right: 5px;
-  /* Si se requiere un único tono, se puede aplicar un filtro o color de texto */
-  color: #333;
-}
-
-.contact-item a {
-  color: #333;
-  text-decoration: none;
-}
-
-.contact-item a:hover {
-  text-decoration: underline;
-}
-
 /* Sección de introducción */
 .intro {
   text-align: center;
@@ -170,6 +148,26 @@ footer {
   background: #333;
   color: #fff;
 }
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-info a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.icon {
+  width: 20px; /* Tamaño pequeño */
+  height: 20px;
+  margin-right: 8px; /* Espacio entre la imagen y el texto */
+}
+
 
 /* Responsividad */
 @media (max-width: 768px) {
