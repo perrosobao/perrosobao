@@ -60,7 +60,7 @@ main {
     flex-direction: column; /* Apila los elementos en móviles */
     text-align: center;
     padding: 10px; /* Reduce el padding para que no sea tan alto */
-    padding-top: 10px;
+    padding-top: 50px;
   }
 
   h1 {
@@ -73,8 +73,8 @@ main {
     gap: 5px;
   }
 
-  main {
-    padding-top: 120px; /* Aumenta el espacio en móvil si el header es más alto */
+  body {
+    padding-top: 100px; /* Aumenta el espacio en móvil si el header es más alto */
   }
 }
 
