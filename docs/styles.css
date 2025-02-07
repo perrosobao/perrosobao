@@ -10,6 +10,7 @@ body {
   line-height: 1.6;
   background: #f4f4f4;
   color: #333;
+  padding-top: 70px;
 }
 
 /* Header */
@@ -32,6 +33,20 @@ body {
   height: 60px;
   border-radius: 50%;
   margin-right: 15px;
+}
+
+header {
+  position: fixed;  /* Mantiene el header fijo */
+  top: 0;  /* Lo coloca en la parte superior */
+  left: 0;  /* Lo alinea a la izquierda */
+  width: 100%;  /* Ocupa todo el ancho */
+  background-color: white;  /* Color de fondo para que no sea transparente */
+  padding: 10px 20px;  /* Espaciado interno */
+  display: flex;  /* Usa flexbox para alinear elementos */
+  justify-content: space-between;  /* Alinea el título a la izquierda y el contacto a la derecha */
+  align-items: center;  /* Centra verticalmente los elementos */
+  z-index: 1000;  /* Asegura que esté por encima de otros elementos */
+  border-bottom: 2px solid #ddd;  /* Línea sutil en la parte inferior */
 }
 
 .header-title h1 {
