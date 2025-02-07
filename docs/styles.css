@@ -1,68 +1,185 @@
+/* Reset básico */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-main {
-  padding: 20px;
-}
-
-/* Estilos generales para el body */
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  font-family: Arial, sans-serif;
   line-height: 1.6;
-  padding: 40px;
+  background: #f4f4f4;
+  color: #333;
 }
 
-/* Encabezados */
-h1 {
-  margin-bottom: 10px;
-  font-weight: 800;
+/* Header */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #fff;
+  border-bottom: 2px solid #ddd;
 }
 
-h2, h3, h4 {
-  margin-bottom: 10px;
-  font-weight: 600;
+.header-left {
+  display: flex;
+  align-items: center;
 }
 
-/* Enlaces */
-a {
-  color: #1e90ff;
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.header-title h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 3px 0;
+  font-size: 0.9rem;
+}
+
+.contact-icon {
+  margin-right: 5px;
+  /* Si se requiere un único tono, se puede aplicar un filtro o color de texto */
+  color: #333;
+}
+
+.contact-item a {
+  color: #333;
   text-decoration: none;
 }
 
-a:hover {
+.contact-item a:hover {
   text-decoration: underline;
 }
 
-/* Listas */
-ul {
-  margin-left: 20px;
+/* Sección de introducción */
+.intro {
+  text-align: center;
+  padding: 40px 20px;
+  background: #e9ecef;
+}
+
+.intro h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.intro h2 {
+  font-size: 1.8rem;
+  color: #555;
+}
+
+/* Sección de reserva */
+.reservation {
+  padding: 30px 20px;
+  background: #fff;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.reservation h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.session-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.session-details p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.session-description p,
+.session-description ul {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.session-description ul {
   list-style-type: disc;
+  margin-left: 20px;
 }
 
-/* Estilo para el elemento <ins> */
-ins {
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-/* Estilos para párrafos */
-p {
-  margin-bottom: 15px;
-}
-
-/* Estilos para el widget de Calendly */
-.calendly-inline-widget {
+/* Widget de pago Bizum */
+.payment-widget {
+  text-align: center;
   margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
 }
 
-/* Separadores o saltos de línea */
-br {
-  margin-bottom: 15px;
+.payment-widget p {
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
 
-/* Puedes agregar más estilos personalizados según lo que necesites */
+.bizum-btn {
+  display: inline-block;
+  background: #FF6B6B;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.bizum-btn:hover {
+  background: #e55a5a;
+}
+
+/* Sección Calendly */
+.calendly-section {
+  padding: 30px 20px;
+  text-align: center;
+  background: #fff;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.calendly-section h2 {
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .header-right {
+    align-self: flex-end;
+    text-align: right;
+  }
+}
